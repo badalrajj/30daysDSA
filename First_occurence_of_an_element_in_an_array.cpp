@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int firstOccurence(vector<int>arr, int target) {
+int firstOccurence (vector<int>arr, int target) {
     int start=0;
     int end=arr.size()-1;
     int ans=-1;
@@ -34,7 +34,7 @@ int main() {
     vector<int> arr{1,2,3,4,4,4,4,5,6,7,8};
     int size=11;
     int target=4;
-    int indexOfOcc=firstOccurence(arr, target);
+    int indexOfOcc = firstOccurence(arr, target);
     cout<<indexOfOcc<<endl;
     
     return 0;
